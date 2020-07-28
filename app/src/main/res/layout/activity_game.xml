@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:id="@+id/relLayout1"
+            android:layout_height="wrap_content">
+
+            //top name bar
+            <include layout="@layout/snippet_top_name_bar"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/relLayout1"
+            android:layout_centerVertical="true"
+            android:id="@+id/relLayout2">
+
+            //game board
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:id="@+id/board"/>
+
+
+        </RelativeLayout>
+
+
+    <include layout="@layout/snippet_below_buttons"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relLayout2"
+        android:text="Winner!!!"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtWinner"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="40dp"/>
+
+
+</RelativeLayout>
+
+
+
+

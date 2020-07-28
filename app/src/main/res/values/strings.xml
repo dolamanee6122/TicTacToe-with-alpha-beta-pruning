@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">tictactoe</string>
+
+    //player names
+    <string name="player1_name">Player1</string>
+    <string name="player2_name">Player2</string>
+
+    //button text
+    <string name="new_game_button">New Game</string>
+    <string name="restart_button">Restart</string>
+    <string name="game_name">Tic-Tac-Toe</string>
+
+</resources>

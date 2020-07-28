@@ -1,0 +1,30 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:padding="8dp">
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game_button"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/white_rounded_button"
+            android:id="@+id/btnNewGame"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_button"
+            android:background="@drawable/white_rounded_button"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnRestart"/>
+
+
+    </RelativeLayout>
+</merge>
